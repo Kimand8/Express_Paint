@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXPRESS PAINT - Студия кузовных ремонтов</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif;
+            background: url('https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?q=80&w=2070&auto=format&fit=crop') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .overlay {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 30px;
+            margin-top: 10vh;
+        }
+        h1 {
+            font-size: 4em;
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+        }
+        h2 {
+            font-size: 1.8em;
+            font-weight: 300;
+            margin-top: 10px;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+        }
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 30px;
+            flex-wrap: wrap;
+            background: rgba(0, 0, 0, 0.7);
+        }
+        .btn {
+            padding: 15px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+        .whatsapp { background: #25D366; }
+        .instagram { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366); }
+        .gis { background: #2b7de1; }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="overlay">
+        <h1>EXPRESS PAINT</h1>
+        <h2>Вернем вашему авто безупречный вид</h2>
+    </div>
+    <div class="buttons">
+        <a href="https://wa.me/77014577795" class="btn whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+        <a href="https://instagram.com/express_paint" class="btn instagram"><i class="fab fa-instagram"></i> Instagram</a>
+        <a href="https://2gis.kz/almaty/firm/70000001030150244" class="btn gis"><i class="fas fa-map-marked-alt"></i> 2GIS</a>
+    </div>
+</body>
+</html>
